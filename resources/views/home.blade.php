@@ -1,6 +1,6 @@
 @extends('layout')
 @section('title','HOME')
 @section('content')
-<h1>HOM  E</h1>
+<h1>HOME</h1>
 
 @endsection

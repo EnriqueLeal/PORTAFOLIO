@@ -40,5 +40,7 @@ Route::get('/portafolio','PortfolioController@index')->name('portafolio');
 
 Route::view("/contact", 'contact')->name('contact');
 
+Route::post('contact', 'MensajeController@store');
+
 // Route::resource('projects', 'PortfolioController')->only(['index','show']);
 // Route::resource('projects', 'PortfolioController')->except(['index','show']);
